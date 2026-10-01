@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jejak Wisata & Rasa - Blog Petualangan & Kuliner</title>
+    <!-- Tailwind CSS untuk Tampilan Modern & Responsif -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+
+    <!-- Header / Navbar -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <div>
+                <h1 class="text-2xl font-bold text-emerald-600"><i class="fa-solid fa-compass mr-2"></i>Jejak Wisata & Rasa</h1>
+                <p class="text-xs text-gray-500">Panduan Perjalanan, Kuliner Nusantara & Tips Travel</p>
+            </div>
+            <nav class="hidden md:flex space-x-6 text-sm font-medium">
+                <a href="#beranda" class="hover:text-emerald-600 transition">Beranda</a>
+                <a href="#artikel" class="hover:text-emerald-600 transition">Artikel</a>
+                <a href="#analisis-bisnis" class="hover:text-emerald-600 transition">Analisis Bisnis (Soal 4.10)</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content Container -->
+    <main class="max-w-6xl mx-auto px-4 py-8" id="beranda">
+
+        <!-- Banner Selamat Datang -->
+        <section class="bg-gradient-to-r from-emerald-600 to-teal-700 text-white rounded-2xl p-8 mb-10 shadow-lg">
+            <h2 class="text-3xl font-extrabold mb-2">Selamat Datang di Jejak Wisata & Rasa!</h2>
+            <p class="text-emerald-100 max-w-2xl">Tempat berbagi rekomendasi tempat nongkrong estetik, panduan liburan hemat, resep kuliner khas daerah, dan tips travel praktis untuk pemula.</p>
+        </section>
+
+        <!-- Section Postingan Blog (4 Artikel Wajib) -->
+        <section id="artikel" class="mb-12">
+            <h3 class="text-2xl font-bold mb-6 text-gray-800 border-l-4 border-emerald-600 pl-3">Postingan Terbaru</h3>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+                <!-- Post 1 -->
+                <article class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition duration-300 flex flex-col">
+                    <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=800&q=80" alt="Kafe Aesthetic di Jakarta" class="w-full h-52 object-cover">
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <div class="flex gap-2 mb-3">
+                                <span class="bg-emerald-100 text-emerald-800 text-xs font-semibold px-2.5 py-0.5 rounded">Kuliner</span>
+                                <span class="bg-amber-100 text-amber-800 text-xs font-semibold px-2.5 py-0.5 rounded">Tempat Kopi</span>
+                            </div>
+                            <h4 class="text-xl font-bold text-gray-900 mb-2">5 Rekomendasi Kafe Aesthetic di Jakarta untuk Tempat Kerja/Nugas</h4>
+                            <p class="text-gray-600 text-sm mb-4">Mencari suasana baru untuk *Work From Cafe* atau sekadar mengerjakan tugas kuliah? Berikut 5 pilihan kafe di Jakarta dengan interior estetik, pencahayaan nyaman, Wi-Fi kencang, dan colokan listrik yang melimpah.</p>
+                        </div>
+                        <!-- Area Komentar Simulasi -->
+                        <div class="border-t pt-4 mt-2">
+                            <h5 class="text-xs font-bold text-gray-500 uppercase mb-2"><i class="fa-regular fa-comments mr-1"></i> Komentar (1)</h5>
+                            <div class="bg-gray-50 p-2.5 rounded text-xs text-gray-700">
+                                <strong>Rian:</strong> "Rekomendasi nomor 2 favorit saya banget! Wi-Fi-nya kencang buat meeting online."
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Post 2 -->
+                <article class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition duration-300 flex flex-col">
+                    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80" alt="Wisata Bandung" class="w-full h-52 object-cover">
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <div class="flex gap-2 mb-3">
+                                <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded">Wisata</span>
+                                <span class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded">Tips Travel</span>
+                            </div>
+                            <h4 class="text-xl font-bold text-gray-900 mb-2">Panduan Liburan Murah 3 Hari 2 Malam ke Bandung</h4>
+                            <p class="text-gray-600 text-sm mb-4">Liburan ke Kota Kembang tidak harus menguras kantong! Simak rancangan itinerary hemat 3D2N mulai dari transportasi kereta lokal, penginapan budget di pusat kota, hingga kulineran malam murah meriah di Jalan Riau.</p>
+                        </div>
+                        <!-- Area Komentar Simulasi -->
+                        <div class="border-t pt-4 mt-2">
+                            <h5 class="text-xs font-bold text-gray-500 uppercase mb-2"><i class="fa-regular fa-comments mr-1"></i> Komentar (1)</h5>
+                            <div class="bg-gray-50 p-2.5 rounded text-xs text-gray-700">
+                                <strong>Siti_A:</strong> "Izin simpan panduannya ya min, pas banget minggu depan mau ke Bandung bareng teman kampus."
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Post 3 -->
+                <article class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition duration-300 flex flex-col">
+                    <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80" alt="Kuliner Nusantara" class="w-full h-52 object-cover">
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <div class="flex gap-2 mb-3">
+                                <span class="bg-emerald-100 text-emerald-800 text-xs font-semibold px-2.5 py-0.5 rounded">Kuliner</span>
+                                <span class="bg-orange-100 text-orange-800 text-xs font-semibold px-2.5 py-0.5 rounded">Resep</span>
+                            </div>
+                            <h4 class="text-xl font-bold text-gray-900 mb-2">Menikmati Makanan Khas Daerah: Resep Kuliner Nusantara</h4>
+                            <p class="text-gray-600 text-sm mb-4">Eksplorasi cita rasa rempah Indonesia dari dapur rumah Anda. Kali ini kita mengulas rahasia resep bumbu halus Rendang khas Minang dan Ayam Taliwang khas Lombok yang gurih dan pedas menggugah selera.</p>
+                        </div>
+                        <!-- Area Komentar Simulasi -->
+                        <div class="border-t pt-4 mt-2">
+                            <h5 class="text-xs font-bold text-gray-500 uppercase mb-2"><i class="fa-regular fa-comments mr-1"></i> Komentar (1)</h5>
+                            <div class="bg-gray-50 p-2.5 rounded text-xs text-gray-700">
+                                <strong>Budi_Santoso:</strong> "Wah bumbu halus taliwangnya terbukti bikin nagih, mantap!"
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Post 4 -->
+                <article class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition duration-300 flex flex-col">
+                    <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=800&q=80" alt="Perlengkapan Travel" class="w-full h-52 object-cover">
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <div class="flex gap-2 mb-3">
+                                <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded">Wisata</span>
+                                <span class="bg-teal-100 text-teal-800 text-xs font-semibold px-2.5 py-0.5 rounded">Tips</span>
+                            </div>
+                            <h4 class="text-xl font-bold text-gray-900 mb-2">Tips Memilih Perlengkapan Travel untuk Pemula</h4>
+                            <p class="text-gray-600 text-sm mb-4">Menyiapkan barang bawaan seringkali bikin pusing. Pelajari kriteria penting memilih koper vs backpack, organizer pakaian, packing cubes, hingga perlengkapan mandi ramah lingkungan untuk perjalanan yang lebih efisien.</p>
+                        </div>
+                        <!-- Area Komentar Simulasi -->
+                        <div class="border-t pt-4 mt-2">
+                            <h5 class="text-xs font-bold text-gray-500 uppercase mb-2"><i class="fa-regular fa-comments mr-1"></i> Komentar (1)</h5>
+                            <div class="bg-gray-50 p-2.5 rounded text-xs text-gray-700">
+                                <strong>Dewi:</strong> "Packing cubes memang penolong banget biar isi tas tetap rapi!"
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Section Analisis Bisnis (Poin Penting Soal 4.10) -->
+        <section id="analisis-bisnis" class="bg-white rounded-2xl p-8 shadow-md border border-gray-200 mb-10">
+            <div class="flex items-center gap-3 mb-4">
+                <i class="fa-solid fa-chart-line text-2xl text-emerald-600"></i>
+                <h3 class="text-2xl font-bold text-gray-800">Analisis Bisnis & Kegunaan Blog (Soal 4.10)</h3>
+            </div>
+            
+            <div class="space-y-6 text-gray-700 text-sm leading-relaxed">
+                <div class="bg-emerald-50 p-4 rounded-lg border-l-4 border-emerald-600">
+                    <h4 class="font-bold text-emerald-900 mb-1 text-base">Bagaimana Blog Ini Berguna Bagi Perusahaan?</h4>
+                    <p>Blog ini dapat menjadi sarana <strong>Content Marketing (Inbound Marketing)</strong> bagi perusahaan seperti agen *travel/tour*, toko peralatan *outdoor*, atau kafe/restoran. Dengan membagikan konten edukatif dan menarik (seperti tips travel dan resep), blog dapat mendatangkan calon pelanggan secara alami melalui mesin pencari (SEO) tanpa memerlukan biaya iklan yang mahal.</p>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-gray-800 mb-3 text-base">Alat-Alat Pendukung di Platform Blog & Kegunaan Bisnisnya:</h4>
+                    <ul class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <li class="bg-gray-50 p-3 rounded shadow-sm border">
+                            <strong class="text-emerald-700 block mb-1">1. Web Analytics (misal: Google Analytics)</strong>
+                            Menganalisis profil pengunjung, kata kunci yang paling sering dicari, dan artikel terpopuler untuk menentukan strategi promosi produk yang tepat.
+                        </li>
+                        <li class="bg-gray-50 p-3 rounded shadow-sm border">
+                            <strong class="text-emerald-700 block mb-1">2. Integrasi Media Sosial & Tombol Share</strong>
+                            Memudahkan pembaca membagikan konten ke platform seperti WhatsApp, Instagram, atau Twitter untuk memperluas jangkauan merek (*brand awareness*).
+                        </li>
+                        <li class="bg-gray-50 p-3 rounded shadow-sm border">
+                            <strong class="text-emerald-700 block mb-1">3. SEO Metadata Optimization</strong>
+                            Mengoptimalkan judul, deskripsi, dan *tag/label* agar artikel mudah ditemukan di halaman pertama hasil pencarian Google.
+                        </li>
+                        <li class="bg-gray-50 p-3 rounded shadow-sm border">
+                            <strong class="text-emerald-700 block mb-1">4. Kolom Komentar & Interaksi Pengguna</strong>
+                            Membangun komunitas, mengumpulkan umpan balik (*feedback*) pelanggan, serta mendengarkan kebutuhan calon pembeli secara langsung.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-400 py-6 text-center text-xs">
+        <p>© 2026 Jejak Wisata & Rasa | Dibuat untuk Tugas QUIZ-UTS SIM (Loudon 4.10 & 4.11) menggunakan GitHub Pages.</p>
+    </footer>
+
+</body>
+</html>
