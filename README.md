@@ -2,8 +2,6 @@
 
 **Nama:** [Rianti Devi Lestari]  
 **NIM / Class:** [1251100090]  
-**URL Blog (GitHub Pages):** [Tempelkan Link GitHub Pages Anda di sini, contoh: https://username.github.io/jejak-wisata-rasa/]  
-
 ---
 
 ## Part 1: Soal 4.10 — Achieving Operational Excellence: Creating a Simple Blog
